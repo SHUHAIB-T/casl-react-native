@@ -1,0 +1,54 @@
+{
+    "admin": {
+        "documentTypes": {
+            "subject": "all",
+            "action": [
+                "manage"
+            ]
+        }
+    },
+    "manager": {
+        "documentTypes": {
+            "information_invoice": {
+                "subject": "information_invoice",
+                "action": [
+                    "read"
+                ]
+            },
+            "regcard": {
+                "subject": "regcard",
+                "action": [
+                    "read"
+                ]
+            }
+        },
+        "attachments": {
+            "addhaar": {
+                "subject": "addhaar",
+                "action": [
+                    "read",
+                    "delete"
+                ]
+            }
+        }
+    },
+    "it_admin": {
+        "documentTypes": {
+            "regcard": {
+                "subject": "regcard",
+                "action": [
+                    "read"
+                ]
+            }
+        },
+        "attachments": {
+            "addhaar": {
+                "subject": "addhaar",
+                "action": [
+                    "read",
+                    "delete"
+                ]
+            }
+        }
+    }
+}
